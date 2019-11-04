@@ -8,3 +8,6 @@ print arr.select(&:odd?)
 puts "*******************************************"
 print arr.select(&:even?)
 
+
+arr.map {|x|x**2}
+
