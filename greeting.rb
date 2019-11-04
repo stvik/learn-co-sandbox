@@ -1,3 +1,3 @@
 arr = ('a'..'z').to_a
 
-arr.map {|x| x.upcase}
+puts arr.map {|x| x.upcase}
