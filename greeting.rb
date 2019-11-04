@@ -1,5 +1,5 @@
 arr = ('a'..'z').to_a
 
-capitals = arr.find {|x| x.upcase}
+capitals = arr.map {|x| x.upcase}
 
 puts capitals.select {|x|x.ord >72}
