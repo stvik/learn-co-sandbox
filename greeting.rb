@@ -6,4 +6,4 @@ ords = arr.map {|x| x.ord}
 
 puts ords
 
- ords.select {|x|x.ord % 2}
+ ords.select(&:odds?)
