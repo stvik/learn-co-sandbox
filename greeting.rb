@@ -3,3 +3,5 @@ def greeting
 end
 
 (0..100).to_a
+
+puts to_a.odds
