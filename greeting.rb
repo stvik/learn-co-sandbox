@@ -6,4 +6,4 @@ ords = arr.map {|x| x.ord}
 
 puts ords
 
- capitals.select {|x|x.ord % 2}
+ ords.select {|x|x.ord % 2}
