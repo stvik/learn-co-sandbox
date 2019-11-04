@@ -1,1 +1,1 @@
-puts a.ord
+puts 'a'.ord
