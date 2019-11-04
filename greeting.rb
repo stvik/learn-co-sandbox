@@ -11,5 +11,5 @@ print arr.select(&:even?)
 
 print arr.map {|x|x**2}
 
-print arr.find {|x| x**2 > 350}
+puts arr.find {|x| x**2 > 350}
 
