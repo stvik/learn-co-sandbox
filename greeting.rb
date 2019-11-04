@@ -4,4 +4,4 @@ end
 
 arr = (0..100).to_a
 
-puts arr.odds
+puts arr.odd
