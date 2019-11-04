@@ -9,5 +9,5 @@ puts "*******************************************"
 print arr.select(&:even?)
 
 
-arr.map {|x|x**2}
+print arr.map {|x|x**2}
 
