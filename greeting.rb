@@ -4,4 +4,6 @@ end
 
 arr = (0..100).to_a
 
-puts arr.select(&:odd?)
+print arr.select(&:odd?)
+print arr.select(&:even?)
+
